@@ -54,9 +54,9 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>jakarta.persistence</groupId>
-			<artifactId>jakarta.persistence-api</artifactId>
-			<version>3.2.0</version> <!-- Versión más reciente -->
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope> <!-- Or compile, depending on your needs -->
 		</dependency>
 	</dependencies>
 
